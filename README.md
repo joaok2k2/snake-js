@@ -17,7 +17,7 @@
 
 ## **Game**:
 
-![]()
+![](https://github.com/joaok2k2/snake-js/blob/master/img/git_js_snake_Trim.gif)
 
 
 
