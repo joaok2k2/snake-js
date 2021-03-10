@@ -1,0 +1,167 @@
+
+@media screen and (max-width:1500px){
+    body{
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding:0;
+        background: linear-gradient(rgba(0,0,0,.20), rgba(0, 171, 54,.20)100%), url("../img/d-render-green-snake-scales-background-131249044.jpg");
+        background-size: cover;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+
+    }
+    .descricao{
+        margin-right: 80px;
+        margin-bottom: 100px;
+        font-size: 30px;
+        margin-right: 100px;
+    }
+    .score{
+        font-size: 30px;
+    }
+    .jogo{
+        margin-right: 100px;
+    }
+    .tit{
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width: 1407px){
+    .tit{
+        margin-left: 70px;
+    }
+}
+@media screen and (max-width: 1447px){
+    .tit{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width: 1293px){
+    .tit{
+        margin-left: 0;
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 1307px){
+    .tit{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 1550px){
+    .tit{
+        font-size: 50px;
+    }
+
+}
+
+@media screen and (max-width:1277px){
+    body{
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding:0;
+        background: linear-gradient(rgba(0,0,0,.20), rgba(0, 171, 54,.20)100%), url("../img/d-render-green-snake-scales-background-131249044.jpg");
+        background-size: cover;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        
+
+    }
+    .descricao{
+        margin-right: 80px;
+        margin-bottom: 100px;
+        font-size: 30px;
+        margin-right: 100px;
+    }
+    .score{
+        font-size: 30px;
+    }
+    .jogo{
+        margin-right: 40px;
+    }
+    .tit{
+        margin-left:35px;
+    }
+        
+}
+
+@media screen and (max-width:1087px){
+    body{
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding:0;
+        background: linear-gradient(rgba(0,0,0,.20), rgba(0, 171, 54,.20)100%), url("../img/d-render-green-snake-scales-background-131249044.jpg");
+        background-size: cover;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        
+
+    }
+    .descricao{
+        display: none;
+    }
+    .score{
+        font-size: 20px;
+    }
+    .jogo{
+        padding-right: 40px
+    }
+    .tit{
+        margin-left:35px;
+    }
+        
+}
+
+@media screen and (max-width: 700px){
+    body{
+        background-color: black;
+        color: white;
+        background-image: none;
+    }
+    .pontuacao{
+        display:none;
+    }
+    .descricao{
+        display: none;
+    }
+    .tit{
+        font-size: 20px;
+    }
+    .jogo{
+        padding:0;
+        margin:0;
+        display: flex;
+        margin-top: 200px;;
+        padding-left: 300px;
+        justify-content: center;
+    }
+    #snake{
+        display: flex;
+        width: 200px;
+        height: 200px;;
+    }
+}

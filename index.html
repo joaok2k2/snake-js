@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel ="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/resposive.css">
+        <link href="./img/favicon/favicon.ico" rel="icon" type="image/x-icon">
+        <!-- ícones -->
+        <script src="https://kit.fontawesome.com/b55fb24ef1.js" crossorigin="anonymous"></script>
+        <script defer src="js/main.js"></script>
+        <title>SNAKE GAME</title>
+    </head>
+    <body>
+        <h2 class= "tit">SNAKE GAME</h2>
+        <main>
+            <div class = "container">
+                <div class="descricao">
+                    <h4>Controles:</h4>
+                    <div class="controles">
+                        <div class="arrows">
+                            <p>
+                            <i class="fas fa-arrow-up"></i></br>
+                            <i class="fas fa-arrow-left"></i>
+                            <i class="fas fa-arrow-down"></i>
+                            <i class="fas fa-arrow-right"></i> 
+                            </p>
+                        </div>
+                        <div class="keys">
+                            <p>
+                                W </br>
+                                A S D
+                            </p>
+                        </div>
+                    </div>
+                    <div class="score">
+                        <h4>Pontuação:</h4>
+                        <div class="apple">
+                            <p>
+                                <img id= "apple" src="./img/apple_normal.png"> = 1 PONTO</br> 
+                                <img id= "rotten_apple" src="./img/rotten_apple2.png">= -1 PONTO
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="jogo">
+                    <canvas id="snake" width="512" height="512"></canvas>
+                </div>
+                <div class="pontuacao">
+                    <div class="pontos">
+                        <h2>SCORE:</h2>
+                        <h2 id = "pontos">0</h2>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="container-rodape">
+            <div class="rodape">
+                <p class="texto-rodape">Criado por joaok2k2. <a class="github"href="https://www.github.com/joaok2k2" target="_blank"><i class="fab fa-github"></i> GITHUB</a></p>
+            </div>
+        </footer>
+        <img id= "bg" src="./img/background.png" style="display: none;">
+    </body>
+</html>

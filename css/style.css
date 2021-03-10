@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:0;
+    background: linear-gradient(rgba(0,0,0,.20), rgba(54, 161, 27, 0.3)30%), url("../img/d-render-green-snake-scales-background-131249044.jpg");
+    text-shadow: 0 0 0.2em gold, 0 0 0.2em #141414,
+        0 0 0.2em #141414;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    padding-right: 100px;
+    margin-left: 10px;
+}
+.jogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 180px;
+    
+    
+}
+.pontos{
+    margin-bottom: 300px;
+}
+#pontos{
+    font-size: 50px;
+}
+.descricao{
+    margin-right: 80px;
+    margin-bottom: 100px;
+    font-size: 30px;
+    margin-right: 200px;
+}
+
+.controles{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    
+}
+.arrows{
+    margin-right: 50px;
+}
+
+.score{
+    font-size: 30px;
+}
+
+.github {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding:0;
+
+}
+.texto-rodape{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    padding:0;
+}
+
+.tit{
+    font-size: 60px;
+    text-shadow: 0 0 0.2em gold, 0 0 0.2em #141414,
+        0 0 0.2em #141414;
+}
